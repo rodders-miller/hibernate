@@ -1,0 +1,15 @@
+This example is based on:
+
+http://docs.jboss.org/hibernate/orm/3.3/reference/en/html/tutorial.html
+
+ToDO:
+
+- Separate out the starting of the JETTY Server into a different class
+- Make the EventManager into a Model class as an interface
+- Make the Servlet into a controller
+	- need to work out how best to keep the hibernate session open
+- Utilise Velocity to create the html page (templating)
+- Use java script front end for the pages etc.
+
+- re-implement the EventModel using Spring JPA
+- Use Spring IOC to inject the model into the controller (need a factory implementation)
